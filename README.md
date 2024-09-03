@@ -17,3 +17,20 @@ pip install -r requirements.txt
 
 3. Run the Jupyter Notebook:
 jupyter notebook data_processing.ipynb
+
+### Description
+
+1. Project Overview
+3. Exploratory Data Analysis
+   - Loading the data, quick visuals checkss
+5. Data Cleaning
+   - Drop extra columns, add necessary
+   - Check for duplicates, data types, missing values, name consistency
+   - Deal with all issues above
+   - Combine all regions together
+7. Data Quality and Integrity Checks
+   - Check combined dataset for duplicates, data types, missing values, name consistency
+9. Database Schema
+   - Tables and join description
+   - Query and load into .csv for Tableau
+11. Known issues and potential improvements
