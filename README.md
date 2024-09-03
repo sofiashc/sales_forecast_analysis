@@ -17,9 +17,3 @@ pip install -r requirements.txt
 
 3. Run the Jupyter Notebook:
 jupyter notebook data_processing.ipynb
-
-### Data Sources
-Americas Sales Data: data/americas.csv
-EMEA Sales Data: data/emea.csv
-Asia Sales Data: data/asia.xlsx
-Forecast Data: data/forecast.csv
