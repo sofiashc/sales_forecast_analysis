@@ -1,17 +1,25 @@
 # Sales and Forecast Data Analysis Project
 
-## Project Overview
-This project involves cleaning, processing, and analyzing sales and forecast data from multiple regions. The final objective is to upload this data to an SQLite database, create a relational schema, and ensure that the data is ready for querying and reporting.
-
-## Installation
-
 ### Prerequisites
 - Python 3.x
+- Pandas
 - SQLite3
-- Required Python packages: `pandas`, `sqlite3`, `sqlalchemy`
+- Jupyter Notebook
 
 ### Setup
+
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/sofiashc/sales_forecast_analysis.git
-   cd sales_forecast_analysis
+git clone https://github.com/sofiashc/sales_forecast_analysis.git
+cd sales_forecast_analysis
+
+2. Install the required Python packages:
+pip install -r requirements.txt
+
+3. Run the Jupyter Notebook:
+jupyter notebook data_processing.ipynb
+
+### Data Sources
+Americas Sales Data: data/americas.csv
+EMEA Sales Data: data/emea.csv
+Asia Sales Data: data/asia.xlsx
+Forecast Data: data/forecast.csv
