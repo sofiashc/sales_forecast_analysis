@@ -22,7 +22,7 @@ jupyter notebook data_processing.ipynb
 
 1. Project Overview
 3. Exploratory Data Analysis
-   - Loading the data, quick visuals checkss
+   - Load the data, quick visuals checkss
 5. Data Cleaning
    - Drop extra columns, add necessary
    - Check for duplicates, data types, missing values, name consistency
